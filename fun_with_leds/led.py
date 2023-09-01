@@ -12,7 +12,7 @@ GPIO.setwarnings(False)
 # set GPIO #18 as an output port
 GPIO.setup(18,GPIO.OUT)
 
-print("LED on")
+print("blue LED on")
 
 # set output level to high
 GPIO.output(18,GPIO.HIGH)
