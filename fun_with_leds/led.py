@@ -17,7 +17,7 @@ print("blue LED on")
 # set output level to high
 GPIO.output(18,GPIO.HIGH)
 
-time.sleep(1)
+time.sleep(0.5)
 print("LED off")
 
 # set output level to low
